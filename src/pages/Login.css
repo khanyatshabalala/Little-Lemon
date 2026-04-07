@@ -1,0 +1,98 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 20px;
+  flex: 1;
+}
+
+.login__card {
+  background: white;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+
+.login__card h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.login__sub {
+  color: #777;
+  margin-bottom: 28px;
+  font-size: 15px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.login__form input {
+  padding: 10px 14px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.login__form input:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
+.login__form button[type="submit"] {
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 4px;
+  transition: opacity 0.2s;
+}
+
+.login__form button[type="submit"]:hover {
+  opacity: 0.85;
+}
+
+.login__toggle {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+.login__error {
+  background: #fee2e2;
+  color: #dc2626;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.login__toggle button {
+  background: none;
+  border: none;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0;
+  text-decoration: underline;
+}

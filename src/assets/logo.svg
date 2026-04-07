@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <circle cx="30" cy="30" r="28" fill="#495E57"/>
+  <text x="30" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#F4CE14" font-family="serif">LL</text>
+  <text x="70" y="28" font-size="20" font-weight="700" fill="#495E57" font-family="serif">Little</text>
+  <text x="70" y="50" font-size="20" font-weight="700" fill="#495E57" font-family="serif">Lemon</text>
+</svg>

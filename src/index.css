@@ -1,0 +1,54 @@
+:root {
+  --yellow: #F4CE14;
+  --green: #495E57;
+  --pink: #EE9972;
+  --light-pink: #FBDABB;
+  --light: #EDEFEE;
+  --dark: #333333;
+  --white: #fff;
+
+  font-family: 'Karla', system-ui, sans-serif;
+  color: var(--dark);
+  background: var(--white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
